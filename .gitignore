@@ -1,0 +1,12 @@
+# 仮想環境フォルダ
+.venv/
+
+# Pythonが自動生成するキャッシュ
+__pycache__/
+*.pyc
+
+# OS固有のファイル (macOS)
+.DS_Store
+
+# エディタの設定ファイル (VSCode)
+.vscode/
