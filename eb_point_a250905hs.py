@@ -18,4 +18,22 @@ y_2 = y_0 - 0.1
 y_3 = y_0 + 0.1
 y_4 = y_0 + 0.3
 
-# chip の表示
+# chip の場所
+
+print(f"chip_1:({x_1}, {y_1})")
+print(f"chip_2:({x_2}, {y_1})")
+print(f"chip_3:({x_3}, {y_1})")
+print(f"chip_4:({x_4}, {y_1})")
+print(f"chip_5:({x_1}, {y_2})")
+print(f"chip_6:({x_2}, {y_2})")
+print(f"chip_7:({x_3}, {y_2})")
+print(f"chip_8:({x_4}, {y_2})")
+print(f"chip_9:({x_1}, {y_3})")
+print(f"chip_10:({x_2}, {y_3})")
+print(f"chip_11:({x_3}, {y_3})")
+print(f"chip_12:({x_4}, {y_3})")
+print(f"chip_13:({x_1}, {y_4})")
+print(f"chip_14:({x_2}, {y_4})")
+print(f"chip_15:({x_3}, {y_4})")
+print(f"chip_16:({x_4}, {y_4})")
+print(f"origin:({x_0}, {y_0})")

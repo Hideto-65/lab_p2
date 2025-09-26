@@ -83,3 +83,6 @@ for i in range(12):
     x = round(s_list[i],5)
     y = round(t_list[i],5)
     print('chip', i + 1, x, y)
+
+arr_1d = np.array([1, 2, 3, 4, 5])
+print("1次元配列:", arr_1d)
