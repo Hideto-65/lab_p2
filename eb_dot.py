@@ -698,8 +698,8 @@ class CC6Writer:
 
         p = 4 #最初のdotの角度
         D = 1.4 
-        pdb = 80 + 2 * lv2x  #datadotのoffsetangleを-90からどれくらい起こすか
-        pbd = 4 + 2 * lv2y #bufferdotのoffsetangleを-90からどれくらい起こすか
+        pdb = 90 + 2 * lv2x  #datadotのoffsetangleを-90からどれくらい起こすか
+        pbd = 4 - 2 * lv2y #bufferdotのoffsetangleを-90からどれくらい起こすか
 
         db = -(90 - pdb) #datadotのoffsetangle
         bd = -(90 - pbd) #bufferdotのoffsetangle
@@ -755,7 +755,7 @@ class CC6Writer:
 
 def main():
     cc6 = CC6Writer()
-    cc6.open("d250828hs") #ここにファイル名を入れる
+    cc6.open("d251031hs") #ここにファイル名を入れる
     cc6.createPatterns( #同じ形状のものを作る,createpatternsの変数を変えると描画する数が変わる #lv1width,hightはl1内でのオブジェクトの間隔
         10,
         10,
